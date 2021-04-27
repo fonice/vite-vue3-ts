@@ -7,6 +7,7 @@ module.exports = {
   extends: [
     'plugin:vue/vue3-essential',
     'standard',
+    'plugin:prettier/recommended',
     'prettier'
   ],
   parserOptions: {
@@ -19,6 +20,5 @@ module.exports = {
     '@typescript-eslint'
   ],
   rules: {
-    // "vue/no-multiple-template-root": false
   }
 }
